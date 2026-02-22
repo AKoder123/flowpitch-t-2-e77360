@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Studying3 — Deck</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="title">Studying3</div>
+      <div class="controls">
+        <button id="prev" aria-label="Previous slide">◀</button>
+        <span id="progress">0 / 0</span>
+        <button id="next" aria-label="Next slide">▶</button>
+      </div>
+    </header>
+
+    <main id="deck" role="main" tabindex="0">
+      <!-- Slides will be rendered here -->
+    </main>
+
+    <footer class="footer">
+      <div id="speaker" class="speaker">Speaker notes will appear here</div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
